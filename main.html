@@ -1,0 +1,38 @@
+<html>
+<title>Javascript Tutorial</title>
+<head>
+    <script>
+        function person(name, age, height){
+
+            this.name = name;
+            this.age = age;
+            this.height = height;
+            this.retire = yearsleft;
+
+        }
+
+        function yearsleft(){
+
+            var numyears = 70 - this.age;
+            return numyears;
+        }
+
+        var Sadah = new person("Mohamed sadah Bah", 23, 6.5)
+        var colin = new person("Colin ogoo", 27, 7.5)
+
+
+
+    </script>
+</head>
+<body>
+    <script>
+            console.log(Sadah.retire())
+            console.log(colin.retire())
+
+    </script>
+
+</body>
+
+
+
+</html> 

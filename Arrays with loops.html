@@ -1,0 +1,37 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+    <title>Arrays with loops</title>
+
+    <script>
+        var store = new Array();
+
+        for (i = 0; i<3; i++){
+            if (i == 0){
+                store[i]= prompt("Enter your name please", "");
+
+            }
+            else if(i ==1){
+                store[i] = prompt("Enter Your Brother's name here", "");
+            }
+            else if(i ==2)
+                store[i] = prompt("Enter your wife's name here", "");
+
+        } 
+
+    </script>
+ </head>
+
+ <body>
+    <script>
+        document.write(store.join("-"));
+
+
+    </script>
+
+
+
+ </body>
+
+
+ </html>
